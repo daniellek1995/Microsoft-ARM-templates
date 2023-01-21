@@ -1,1 +1,1 @@
-# Micrisoft-ARM-templates
+# Microsoft-ARM-templates
