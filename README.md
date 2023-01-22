@@ -1,6 +1,6 @@
 # Microsoft-ARM-templates
 ---
-description: In this Repo you will find the following scripts:
+In this Repo you will find the following scripts:
 1. Create resource group scripts:
 deploy a resource group.
 You need to provide the resource group name, and the subscription id.
@@ -14,7 +14,7 @@ if you run the same script twice - you will need to change the network interface
 deploy a container to storage account in order to add blobs later.
 You'll need to provide the RS name, the container name and the storage account name.
 6. create blobs and copy them from one storage account to another (without using AzCopy)
-
+this script will create 100 txt files in the local computer, and then will upload it to the container we just 
 page_type: sample
 products:
 - azure
