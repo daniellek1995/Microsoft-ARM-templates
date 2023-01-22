@@ -1,6 +1,20 @@
 # Microsoft-ARM-templates
 ---
-description: This template deploy a Ubuntu Server with a few options for the VM. You can provide the VM Name, OS Version, VM size, admin username and password. As default the VM size is Standard_B2s and O.S. Version is 18.04-LTS.
+description: In this Repo you will find the following scripts:
+1. Create resource group scripts:
+deploy a resource group.
+You need to provide the resource group name, and the subscription id.
+2. Create storage account scripts:
+deploy a new storage account 
+3. Create windows vm scripts:
+deploy a Windows Server with a few options for the VM. 
+You need to provide the VM Name,admin username and password.
+if you run the same script twice - you will need to change the network interface and the public ip address (or you can just delete the option from the JSON file).
+4. create container scripts
+deploy a container to storage account in order to add blobs later.
+You'll need to provide the RS name, the container name and the storage account name.
+6. create blobs and copy them from one storage account to another (without using AzCopy)
+
 page_type: sample
 products:
 - azure
