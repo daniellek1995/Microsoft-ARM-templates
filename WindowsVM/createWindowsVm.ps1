@@ -1,4 +1,4 @@
-$template_path = ".\windowsVmTemaplate.json"
+$template_path = ".\WindowsVM\windowsVmTemaplate.json"
 $rg_name = "danielle_Resource_group2"
 #$dnsLabelPrefix = "windowsvm"
 $resourceGroupName = (Get-AzResourceGroup -Name $rg_name).ResourceGroupName
