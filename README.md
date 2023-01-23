@@ -1,7 +1,7 @@
 # Microsoft-ARM-templates
 ---
 In this Repo you will find the following scripts:
-1. Create resource group scripts:
+1. Create resource group scripts:/n 
 deploy a resource group.
 You need to provide the resource group name, and the subscription id.
 2. Create storage account scripts:
@@ -17,11 +17,10 @@ You'll need to provide the RS name, the container name and the storage account n
 this script will create 100 txt files in the local computer, and then will upload it to the container we just 
 
 
-## The Template
+## The Templates:
+each template contains valus that needs to be changed 
 
-Don't let the size of the template scares you. The structure is very intuitive and once that you get the gist of it, you will see how much easier your life will be deploying resources to Azure.
-
-These are the parameters on the template, most of them already have values inserted, the ones that you need to inform are: **adminUsername**, **adminPassword** and **resourceGroup**.
+**adminUsername**, **adminPassword** and **resourceGroup**.
 
 Parameter         | Suggested value     | Description
 :--------------- | :-------------      |:---------------------
@@ -37,8 +36,6 @@ Parameter         | Suggested value     | Description
 **Resource Group**| myResourceGroup |  That is the Resource Group that you need to deploy your resources.
 
 Deployment can be using powerShell/Azure CLI/azure devops with creating the write YAML. 
-
-
 
 
 
