@@ -1,7 +1,7 @@
 # Microsoft-ARM-templates
 ---
 In this Repo you will find the following scripts:
-1. Create resource group scripts:/n 
+1. Create resource group scripts: /n 
 deploy a resource group.
 You need to provide the resource group name, and the subscription id.
 2. Create storage account scripts:
