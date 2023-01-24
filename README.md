@@ -1,8 +1,5 @@
 # Microsoft-ARM-templates
 ---
-![PowerShell](https://user-images.githubusercontent.com/71592856/214279247-d8eaae5a-972a-45de-b288-9d6105406068.svg) ![Microsoft_Azure_Logo](https://user-images.githubusercontent.com/71592856/214279585-083b61ab-618c-44c9-8d74-588460f5d63a.svg)
-  <br />
-
 In this Repo you will find the creating templates/scripts of the following things:
 1. Resource group:  <br />
 The scripts deploy a resource group. <br />
